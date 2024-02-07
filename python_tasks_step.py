@@ -50,5 +50,17 @@ print("Привет,", name)
 team = input()
 print(team, '- чемпион!')
 
+# 6. Повторяй за мной
+""" Напишите программу, которая считывает три строки по очереди, а затем выводит их в той же 
+последовательности, каждую на отдельной строчке. """
+first_word = input()
+second_word = input()
+third_word = input()
+print(first_word)
+print(second_word)
+print(third_word)
+
+
+
 
 
