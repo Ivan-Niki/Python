@@ -62,15 +62,24 @@ print(third_word)
 
 # 7. Что будет выведено на экран в результате выполнения следующего кода?
 print('31', '12', '2019', sep='-')
-# Ответ: 
-31-12-2019
+# Ответ: 31-12-2019
 
 # 8. Что будет выведено на экран в результате выполнения следующего кода?
 print('Mercury', 'Venus', sep='*', end='!')
 print('Mars', 'Jupiter', sep='**', end='?')
-# Ответ: 
-Mercury*Venus!Mars**Jupiter?
+# Ответ: Mercury*Venus!Mars**Jupiter?
 
+# 9. Сколько строк будет распечатано в результате выполнения следующего кода?
+print('a', 'b', 'c', sep='*')
+print('d', 'e', 'f', sep='**', end='')
+print('g', 'h', 'i', sep='+', end='%')
+print('j', 'k', 'l', sep='-', end='\n')
+print('m', 'n', 'o', sep='/', end='!')
+print('p', 'q', 'r', sep='1', end='%')
+print('s', 't', 'u', sep='&', end='\n')
+print('v', 'w', 'x', sep='%')
+print('y', 'z', sep='/', end='!')
+# Ответ: 5
 
 
 
