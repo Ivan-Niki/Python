@@ -65,6 +65,15 @@ print('31', '12', '2019', sep='-')
 # Ответ: 
 31-12-2019
 
+# 8. Что будет выведено на экран в результате выполнения следующего кода?
+print('Mercury', 'Venus', sep='*', end='!')
+print('Mars', 'Jupiter', sep='**', end='?')
+# Ответ: 
+Mercury*Venus!Mars**Jupiter?
+
+
+
+
 
 
 
