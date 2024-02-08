@@ -90,6 +90,21 @@ word2 = input()
 word3 = input()
 print(word1, word2, word3, sep=separator)
 
+# 11. Что будет напечатано в результате выполнения следующей программы?
+""" 
+# print('Java')
+# print('Ruby')
+# print('Scala')
+print('Python', end='+')  # print('C++')
+# print('GO')
+print('C#', end='=')  # print('C')
+print('awesome')
+# finish
+""" 
+# Ответ: Python+C#=awesome
+
+
+
 
 
 
