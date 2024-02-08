@@ -119,6 +119,14 @@ num2 = int(input())
 num3 = int(input())
 print(num1 + num2 + num3)
 
+# 14. Куб
+# Напишите программу, вычисляющую объем куба и площадь его полной поверхности по введенному значению длины ребра.
+length1 = int(input())
+volume = length1 * length1 * length1
+s = 6 * length1 * length1
+print('Объем =', volume)
+print('Площадь полной поверхности =', s)
+
 
 
 
