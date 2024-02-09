@@ -150,6 +150,12 @@ keyboard_price = int(input())
 mouse_price = int(input())
 print((monitor_price + s_block_price + keyboard_price + mouse_price) * 3)
 
+# 18. Напишите программу, в которой вычисляется сумма, разность и произведение двух целых чисел, введенных с клавиатуры.
+num1 = int(input())
+num2 = int(input())
+print(num1, '+', num2, '=', num1 + num2)
+print(num1, '-', num2, '=', num1 - num2)
+print(num1, '*', num2, '=', num1 * num2)
 
 
 
