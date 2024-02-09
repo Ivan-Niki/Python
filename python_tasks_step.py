@@ -141,6 +141,15 @@ num = int(input())
 print('Следующее за числом', num, 'число:', num + 1)
 print('Для числа', num, 'предыдущее число:', num - 1)
 
+# 17. Стоимость покупки
+""" Напишите программу, которая считает стоимость трех компьютеров, состоящих из монитора, 
+системного блока, клавиатуры и мыши. """
+monitor_price = int(input())
+s_block_price = int(input())
+keyboard_price = int(input())
+mouse_price = int(input())
+print((monitor_price + s_block_price + keyboard_price + mouse_price) * 3)
+
 
 
 
