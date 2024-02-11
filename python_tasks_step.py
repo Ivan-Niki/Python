@@ -246,6 +246,12 @@ print(min_count, 'мин - это', min_count // 60, 'час', min_count % 60, '
 -> На вход программе подаётся положительное трёхзначное число.
 Формат выходных данных:
 -> Программа должна вывести два числа с поясняющим текстом: сумма цифр и произведение цифр. """
+num = int(input())
+third_digit = num % 10
+second_digit = (num // 10) % 10
+first_digit = num // 100
+print('Сумма цифр =', third_digit + second_digit + first_digit)
+print('Произведение цифр =', third_digit * second_digit * first_digit)
 
 
 
