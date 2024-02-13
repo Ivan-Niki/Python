@@ -438,6 +438,16 @@ else:
 Формат выходных данных
 Программа должна вывести наименьшее из четырёх чисел.
 Примечание. Учитывайте, что минимальные числа могут повторяться. """
+num1, num2, num3, num4 = int(input()), int(input()), int(input()), int(input())
+minimal = num1
+if num1 > num2:
+    minimal = num2
+if num2 > num3:
+    minimal = num3
+if num3 > num4:
+    minimal = num4
+print(minimal)
+
 
 
 
