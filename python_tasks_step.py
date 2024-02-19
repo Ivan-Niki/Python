@@ -591,4 +591,15 @@ else:
 Формат выходных данных: Программа должна вывести текст в соответствии с условием задачи.
 Примечание. Шахматный король ходит по горизонтали, вертикали и диагонали, но только на 1 клетку. """
 
+colomn_num1 = int(input())
+line_num1 = int(input())
+colomn_num2 = int(input())
+line_num2 = int(input())
+diff_line = line_num2 - line_num1
+diff_column = colomn_num2 - colomn_num1
+if (diff_line == -1 or diff_line == 1 or diff_line == 0) and (diff_column == -1 or diff_column == 1 or diff_column == 0):
+    print('YES')
+else:
+    print('NO')
+
 
