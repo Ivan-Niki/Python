@@ -815,4 +815,33 @@ elif pocket_num < 0 or pocket_num > 36:
 Формат выходных данных:
 Программа должна вывести на экран границы отрезка, являющегося пересечением, либо общую точку, либо текст «пустое множество». """
 
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+
+if a1 < a2:
+    if a2 > b1:
+        print('пустое множество')
+    elif a2 == b1:
+        print(a2)
+    elif a2 < b1 and b2 >= b1:
+        print(a2, b1)
+    elif a2 < b1 and b2 < b1:
+        print(a2, b2)
+elif a2 < a1:
+    if b2 < a1:
+        print('пустое множество')
+    elif b2 == a1:
+        print(a1)
+    elif b2 > a1 and b2 <= b1:
+        print(a1, b2)
+    elif a1 < b2 and b1 < b2:
+        print(a1, b1)
+elif a1 == a2:
+    if b1 <= b2:
+        print(a1, b1)
+    elif b2 < b1:
+        print(a2, b2)
+
 
