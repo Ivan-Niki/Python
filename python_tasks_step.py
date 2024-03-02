@@ -1118,4 +1118,17 @@ print(min_num)
 Формат выходных данных
 Программа должна вывести текст в соответствии с условием задачи. """
 
+n = int(input())
+digit_1 = n // 100
+digit_2 = (n // 10) % 10
+digit_3 = n % 10
+sum_digit = digit_1 + digit_2 + digit_3
+max_digit = max(digit_1, digit_2, digit_3)
+min_digit = min(digit_1, digit_2, digit_3)
+mid_digit = sum_digit - (max_digit + min_digit)
+
+if max_digit - min_digit == mid_digit:
+    print('Число интересное')
+else:
+    print('Число неинтересное')
 
