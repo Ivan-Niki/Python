@@ -1098,6 +1098,16 @@ print('Наибольшее число =', max(num1, num2, num3, num4, num5))
 На вход программе подается три целых числа, каждое на отдельной строке.
 Формат выходных данных:
 Программа должна вывести три числа, каждое на отдельной строке, упорядоченных от большего к меньшему. """
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+sum_123 = num1 + num2 + num3
+max_num = max(num1, num2, num3)
+min_num = min(num1, num2, num3)
+
+print(max_num)
+print(sum_123 - (max_num + min_num))
+print(min_num)
 
 
 
