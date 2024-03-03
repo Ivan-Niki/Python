@@ -1164,3 +1164,12 @@ print(abs(p1 - q1) + abs(p2 - q2))
 """ --> "Python is a great language!", said Fred. "I don't ever remember having this much fun before."
 Примечание. Используйте конкатенацию строк. """
 print('"Python is a great language!", said Fred. ' + '"I don' + "'" + 't ever remember having this much fun before."')
+
+# 81. What's Your Name?
+""" Напишите программу, которая считывает с клавиатуры две строки – имя и фамилию пользователя и выводит фразу:
+«Hello [введенное имя] [введенная фамилия]! You have just delved into Python».
+Формат входных данных:
+На вход программе подаётся две строки (имя и фамилия), каждая на отдельной строке.
+Формат выходных данных:
+Программа должна вывести текст в соответствии с условием задачи.
+Примечание. Между firstname lastname вставьте пробел =) """ 
