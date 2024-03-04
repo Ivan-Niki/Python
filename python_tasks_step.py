@@ -1215,5 +1215,18 @@ elif len(city1) < len(city3) > len(city2):
 На вход программе подаются три строки, каждая на отдельной строке.
 Формат выходных данных:
 Программа должна вывести строку «YES», если из длин введенных слов можно построить арифметическую прогрессию, 
-или «NO» - в противном случае.
+или «NO» - в противном случае. """
+str1 = input()
+str2 = input()
+str3 = input()
+
+num1, num2, num3 = len(str1), len(str2), len(str3)
+max_num = max(num1, num2, num3)
+min_num = min(num1, num2, num3)
+mid_num = (num1 + num2 + num3) - (max_num + min_num)
+
+if max_num - mid_num == mid_num - min_num:
+    print('YES')
+else:
+    print('NO')
 
