@@ -1190,4 +1190,21 @@ print('Футбольная команда ' + f_team + ' имеет длину 
 Формат выходных данных:
 Программа должна вывести самое короткое и длинное название города, каждое на отдельной строке.
 Примечание. Гарантируется, что длины названий всех трех городов различны. """
+city1 = input()
+city2 = input()
+city3 = input()
+
+if len(city3) > len(city1) < len(city2):
+    print(city1)
+elif len(city1) > len(city2) < len(city3):
+    print(city2)
+elif len(city1) > len(city3) < len(city2):
+    print(city3)
+
+if len(city3) < len(city1) > len(city2):
+    print(city1)
+elif len(city1) < len(city2) > len(city3):
+    print(city2)
+elif len(city1) < len(city3) > len(city2):
+    print(city3)
 
