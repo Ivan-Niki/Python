@@ -1352,3 +1352,18 @@ print(floor(x) + ceil(x))
 Формат выходных данных:
 Программа должна вывести вещественные корни уравнения каждый на отдельной строке, если они существуют, 
 или текст «Нет корней» в противном случае. """
+from math import *
+a = float(input())
+b = float(input())
+c = float(input())
+discrim = b**2 - (4 * a * c)
+
+if discrim > 0:
+    x1 = (-b - sqrt(discrim)) / (2 * a)
+    x2 = (-b + sqrt(discrim)) / (2 * a)
+    print(min(x1, x2))
+    print(max(x1, x2))
+elif discrim == 0:
+    print(-b / (2 * a))
+else:
+    print('Нет корней')
