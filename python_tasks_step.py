@@ -1408,3 +1408,15 @@ str1 = input()
 num = int(input())
 for i in range(num):
     print(str1)
+
+# 97. Последовательность символов
+Напишите программу, которая использует ровно три цикла for для печати следующей последовательности символов:
+
+for i in range(6):
+    print('AAA')
+for i in range(5):
+    print('BBBB')
+print('E')
+for i in range(9):
+    print('TTTTT')
+print('G')
