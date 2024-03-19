@@ -1815,3 +1815,19 @@ print(count)
 Формат выходных данных:
 Программа должна вывести минимально возможное количество чеканных монет для оплаты. """
 
+sum_total = int(input())
+count = 0
+while sum_total >= 25:
+    count += 1
+    sum_total -= 25
+while sum_total >= 10:
+    count += 1
+    sum_total -= 10
+while sum_total >= 5:
+    count += 1
+    sum_total -= 5
+while sum_total >= 1:
+    count += 1
+    sum_total -= 1
+print(count)
+
