@@ -1957,3 +1957,17 @@ else:
 На вход программе подается одно натуральное число.
 Формат выходных данных:
 Программа должна вывести «YES» если последовательность его цифр при просмотре справа налево является упорядоченной по неубыванию и «NO» в противном случае. """
+
+num = int(input())
+flag = True
+while num // 10 > 0:
+    last_digit = num % 10
+    prelast_digit = (num // 10) % 10
+    if last_digit > prelast_digit:
+        flag = False
+    num = num // 10
+    
+if flag == False:
+    print('NO')
+else:
+    print('YES')
