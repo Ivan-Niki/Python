@@ -1917,6 +1917,7 @@ print(firtst_digit + last_digit1)
 На вход программе подается одно натуральное число, состоящее как минимум из двух цифр.
 Формат выходных данных:
 Программа должна вывести его вторую (с начала) цифру. """
+
 num = int(input())
 num_copy = num
 counter = 0
@@ -1933,3 +1934,17 @@ print(second_digit)
 На вход программе подается одно натуральное число.
 Формат выходных данных:
 Программа должна вывести «YES» если число состоит из одинаковых цифр и «NO» в противном случае. """
+
+num = int(input())
+flag = True
+last_digit1 = num % 10
+while num != 0:
+    last_digit = num % 10
+    if last_digit != last_digit1:
+        flag = False
+    num = num // 10
+
+if flag == False:
+    print('NO')
+else:
+    print('YES')
