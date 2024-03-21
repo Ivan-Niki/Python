@@ -1917,3 +1917,11 @@ print(firtst_digit + last_digit1)
 На вход программе подается одно натуральное число, состоящее как минимум из двух цифр.
 Формат выходных данных:
 Программа должна вывести его вторую (с начала) цифру. """
+num = int(input())
+num_copy = num
+counter = 0
+while num != 0:
+    counter += 1
+    num = num // 10
+second_digit = (num_copy // (10 ** (counter -2))) % 10
+print(second_digit)
