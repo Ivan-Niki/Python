@@ -1888,3 +1888,24 @@ print('Минимальная цифра равна', min_digit)
 На вход программе подается одно натуральное число.
 Формат выходных данных:
 Программа должна вывести значения указанных величин в указанном порядке. """
+
+num = int(input())
+num_copy = num
+last_digit1 = num % 10
+counter = 0
+total_sum = 0
+total_product = 1
+while num != 0:
+    last_digit = num % 10
+    counter += 1
+    total_sum += last_digit
+    total_product *= last_digit
+    num = num // 10
+
+firtst_digit = num_copy // (10 ** (counter -1))    
+print(total_sum)
+print(counter)
+print(total_product)
+print(total_sum / counter)
+print(firtst_digit)
+print(firtst_digit + last_digit1)
