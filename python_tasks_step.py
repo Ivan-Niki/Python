@@ -2008,3 +2008,6 @@ for i in range(10):
     result += i
 
 print(result)
+
+# Ответ: 25
+
