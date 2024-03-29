@@ -2020,3 +2020,5 @@ for i in range(1, 11):
       break
    mult *= i
 print(mult)
+
+# Ответ: 105
