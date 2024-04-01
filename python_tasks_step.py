@@ -2111,3 +2111,18 @@ for i in range(11):
         mx = x
 print(s)
 print(mx)
+
+# Исправленный вариант кода:
+mx = -10 ** 6
+total = 0
+for i in range(10):
+    x = int(input())
+    if x < 0:
+        total += x
+    if x > mx and x < 0:
+        mx = x
+if total == 0:
+    print('NO')
+else:
+    print(total)
+    print(mx)
