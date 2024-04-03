@@ -2144,3 +2144,12 @@ for i in range(1, 7):
         s = s + n
 print(s)
 
+# Исправленный вариант кода:
+total_sum = 0
+for i in range(7):
+    n = int(input())
+    if n % 2 == 0:
+        total_sum += n
+print(total_sum)
+
+
