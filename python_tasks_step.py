@@ -2202,3 +2202,8 @@ while n > 0:
     n %= 10
 print(n)
 
+# Исправленный вариант кода:
+n = int(input())
+while n > 9:
+    n = n // 10
+print(n)
