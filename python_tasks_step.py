@@ -2175,3 +2175,17 @@ if max_digit == 0:
     print('NO')
 else:
     print(max_digit)
+
+# Исправленный вариант кода:
+n = int(input())
+max_digit_3 = -1 # 0
+while n != 0:
+    digit = n % 10
+    if digit % 3 == 0:
+        if digit > max_digit_3:
+            max_digit_3 = digit
+    n = n // 10
+if max_digit_3 < 0:
+    print('NO')
+else:
+    print(max_digit_3)
