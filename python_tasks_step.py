@@ -2257,4 +2257,5 @@ for i in range(99, 102):
         counter += 1
         temp //= 10
 print(counter)
+# Ответ: 8
 
