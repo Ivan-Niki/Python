@@ -2247,6 +2247,14 @@ for i in range(1, 4):
 for i in range(1, 4):
     for j in range(3, 5):
         print(i + j, end='')
-
 # Ответ: 455667.
+
+# 147. Что покажет приведенный ниже фрагмент кода?
+counter = 0
+for i in range(99, 102):
+    temp = i
+    while temp > 0:
+        counter += 1
+        temp //= 10
+print(counter)
 
