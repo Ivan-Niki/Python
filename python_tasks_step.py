@@ -2432,4 +2432,9 @@ print(lastname[0], name[0], fathername[0], sep='')
 На вход программе подается одна строка состоящая из цифр.
 Формат выходных данных:
 Программа должна вывести сумму цифр данной строки. """
+str = input()
+total = 0
+for i in range(len(str)):
+    total += int(str[i])
+print(total)
 
