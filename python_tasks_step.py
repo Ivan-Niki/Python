@@ -2463,3 +2463,13 @@ else:
 На вход программе подается одна строка.
 Формат выходных данных:
 Программа должна вывести сколько раз встречаются символы + и * в строке. """
+str1 = input()
+total_plus = 0
+total_aster = 0
+for i in range(len(str1)):
+    if str1[i] == '+':
+        total_plus += 1
+    elif str1[i] == '*':
+        total_aster += 1
+print('Символ ' + '+ встречается ' + str(total_plus) + ' раз')        
+print('Символ ' + '* встречается ' + str(total_aster) + ' раз')
