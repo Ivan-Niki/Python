@@ -2519,4 +2519,15 @@ print('Количество согласных букв равно', total_conso
 Формат выходных данных:
 Программа должна вывести число записанное в двоичной системе счисления. """
 
+n = int(input())
+result_str = ''
+while n != 0:
+    last_digit = n % 2
+    n = n // 2
+    result_str += str(last_digit)
+res = ''
+for i in range(len(result_str) - 1, -1, -1):
+    res += result_str[i]
+print(res)
+
 
