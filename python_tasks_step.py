@@ -2671,4 +2671,6 @@ print(second_part + first_part)
 # 180. Что покажет приведенный ниже фрагмент кода?
 s = 'i Learn Python language'
 print(s.capitalize())
+# Ответ: I learn python language
+
 
