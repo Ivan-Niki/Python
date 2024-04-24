@@ -2667,3 +2667,8 @@ text = input()
 first_part = text[0:len(text)// 2 + len(text) % 2]
 second_part = text[len(text)// 2 + len(text) % 2:]
 print(second_part + first_part)
+
+# 180. Что покажет приведенный ниже фрагмент кода?
+s = 'i Learn Python language'
+print(s.capitalize())
+
