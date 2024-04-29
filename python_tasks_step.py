@@ -2676,4 +2676,6 @@ print(s.capitalize())
 # 181. Что покажет приведенный ниже фрагмент кода?
 s = 'i LEARN Python LAnguaGE'
 print(s.lower())
+# Ответ: i learn python language
+
 
