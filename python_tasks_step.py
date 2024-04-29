@@ -2692,4 +2692,6 @@ print(s1, s2)
 # 184. Что покажет приведенный ниже фрагмент кода?
 s = 'i LEARN Python LAnguaGE'
 print(s.upper())
+# Ответ: I LEARN PYTHON LANGUAGE
+
 
