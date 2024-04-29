@@ -2694,4 +2694,7 @@ s = 'i LEARN Python LAnguaGE'
 print(s.upper())
 # Ответ: I LEARN PYTHON LANGUAGE
 
+# 185. Что покажет приведенный ниже фрагмент кода?
+s = 'i LEARN Python LAnguaGE'
+print(s.swapcase())
 
