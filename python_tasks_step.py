@@ -2678,4 +2678,7 @@ s = 'i LEARN Python LAnguaGE'
 print(s.lower())
 # Ответ: i learn python language
 
+# 182. Что покажет приведенный ниже фрагмент кода?
+s = '$12344%^$#@!'
+print(s.lower())
 
