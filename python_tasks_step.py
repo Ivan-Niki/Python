@@ -2689,4 +2689,7 @@ s2 = s1.upper()
 print(s1, s2)
 # Ответ: a A
 
+# 184. Что покажет приведенный ниже фрагмент кода?
+s = 'i LEARN Python LAnguaGE'
+print(s.upper())
 
