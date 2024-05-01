@@ -2746,6 +2746,12 @@ else:
 На вход программе подается строка. 
 Формат выходных данных:
 Программа должна вывести количество буквенных символов в нижнем регистре. """
+text = input()
+counter = 0
+for i in range(len(text)):
+    if text[i] in 'abcdefghigklmnopqrstuvwxyz':
+        counter += 1
+print(counter)
 
 
 
