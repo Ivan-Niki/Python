@@ -2764,6 +2764,9 @@ s = 'www.stepik.org'
 print(s.startswith('www'))
 # Ответ: True
 
+# 192. Что покажет приведенный ниже фрагмент кода?
+s = 'www.stepik.org'
+print(s.endswith('.ru'))
 
 
 
