@@ -2767,6 +2767,7 @@ print(s.startswith('www'))
 # 192. Что покажет приведенный ниже фрагмент кода?
 s = 'www.stepik.org'
 print(s.endswith('.ru'))
+# Ответ: False
 
 
 
