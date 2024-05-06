@@ -2757,6 +2757,8 @@ print(counter)
 s = 'aabbAAccDDaa'
 s = s.lower()
 print(s.count('a'))
+# Ответ: 6 # количество вхождений подстроки 'a'
+
 
 
 
