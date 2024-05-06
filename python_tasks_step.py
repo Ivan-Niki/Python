@@ -2753,6 +2753,11 @@ for i in range(len(text)):
         counter += 1
 print(counter)
 
+# 190. Что покажет приведенный ниже фрагмент кода?
+s = 'aabbAAccDDaa'
+s = s.lower()
+print(s.count('a'))
+
 
 
 
