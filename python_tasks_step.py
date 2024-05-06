@@ -2762,6 +2762,8 @@ print(s.count('a'))
 # 191. Что покажет приведенный ниже фрагмент кода?
 s = 'www.stepik.org'
 print(s.startswith('www'))
+# Ответ: True
+
 
 
 
