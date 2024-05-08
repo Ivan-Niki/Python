@@ -2779,6 +2779,10 @@ s = '     I learn Python language               '
 print(s.strip())
 # Ответ: I learn Python language (Пробелы в начале строки и в конце строки удалены).
 
+# 195. Что покажет приведенный ниже фрагмент кода?
+s = 'abcdababa'
+print(s.replace('ab', '123'))
+
 
 
 
