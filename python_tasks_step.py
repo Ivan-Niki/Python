@@ -2774,6 +2774,10 @@ s = 'I learn Python language. Python - awesome!'
 print(s.find('Python'))
 # Ответ: 8
 
+# 194. Что покажет приведенный ниже фрагмент кода?
+s = '     I learn Python language               '
+print(s.strip())
+
 
 
 
