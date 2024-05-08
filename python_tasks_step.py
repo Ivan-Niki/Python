@@ -2777,7 +2777,7 @@ print(s.find('Python'))
 # 194. Что покажет приведенный ниже фрагмент кода?
 s = '     I learn Python language               '
 print(s.strip())
-
+# Ответ: I learn Python language (Пробелы в начале строки и в конце строки удалены).
 
 
 
