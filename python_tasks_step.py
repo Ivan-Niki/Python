@@ -2918,4 +2918,11 @@ s = 'In {0}, someone paid {1} {2} for two pizzas.'
 
 print()
 
+# Решение:
+s = 'In {0}, someone paid {1} {2} for two pizzas.'
+year = 2010
+cost = '10k'
+currency = 'Bitcoin'
+print(s.format(year, cost, currency))
+
 
