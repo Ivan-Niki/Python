@@ -2951,5 +2951,9 @@ print(f'In {year}, someone paid {amount} {currency} for two pizzas.')
 На вход программе подается два натуральных числа, каждое на отдельное строке.
 Формат выходных данных:
 Программа должна вывести текст в соответствии с условием задачи. """
+a = int(input())
+b = int(input())
+for i in range(a, b + 1):
+    print(chr(i), end=' ')
 
 
