@@ -3008,6 +3008,7 @@ s = 'abcdefghijklmnopqrstuvwxyz'
 chars_list = list(s[:n])
 print(chars_list)
 
+# 211. Дополните приведенный код, используя индексатор, так чтобы он вывел 17-ый (если считать с 1) элемент списка primes
 
 
 
