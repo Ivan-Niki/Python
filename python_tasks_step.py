@@ -3003,6 +3003,10 @@ print(sequence)
 На вход программе подается натуральное число n, 1≤ n ≤26.
 Формат выходных данных:
 Программа должна вывести текст в соответствии с условием задачи. """
+n = int(input())
+s = 'abcdefghijklmnopqrstuvwxyz'
+chars_list = list(s[:n])
+print(chars_list)
 
 
 
