@@ -3039,7 +3039,7 @@ average =
 
 print(average)
 
-
+# Ответ: average = sum(evens) / 10
 
 
 
