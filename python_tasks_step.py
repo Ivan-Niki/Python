@@ -3105,6 +3105,13 @@ print(numbers[1:len(numbers) - 1])
 Формат выходных данных:
 Программа должна вывести список состоящий из указанных строк. """
 
+n = int(input())
+langs = []
+for i in range(n):
+    s = input()
+    langs.append(s)
+print(langs)
+
 
 
 
