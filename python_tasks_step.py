@@ -3121,11 +3121,10 @@ print(langs)
 Примечание 2. Английский алфавит (для копирования):
 abcdefghijklmnopqrstuvwxyz """
 
-
-
-
-
-
-
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+chars = []
+for i in range(len(alphabet)):
+    chars.append(alphabet[i] * (i + 1))
+print(chars)
 
 
