@@ -3183,5 +3183,13 @@ print(l2)
 Формат выходных данных:
 Программа должна вывести список в соответствии с условием задачи.
 Примечание. Используйте оператор del. """
+n = int(input())
+numbers = []
+for i in range(n):
+    num = int(input())
+    numbers.append(num)
+    
+del numbers[1::2]
+print(numbers)
 
 
