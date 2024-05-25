@@ -3202,6 +3202,16 @@ print(numbers)
 Программа должна вывести текст в соответствии с условием задачи.
 Примечание. Если некоторые строки слишком короткие, и в них нет символа с заданным номером, то такие строки 
 при выводе нужно игнорировать. """
+n = int(input())
+words = []
+for i in range(n):
+    s = input()
+    words.append(s)
+
+k = int(input())
+for i in range(len(words)):
+    if len(words[i]) >= k:
+        print(words[i][k - 1], end='')
 
 
 
