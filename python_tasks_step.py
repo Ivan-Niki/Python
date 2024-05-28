@@ -3268,5 +3268,17 @@ for num in numbers:
 Формат выходных данных:
 Программа должна вывести текст в соответствии с условием задачи. """
 
+n = int(input())
+numbers = []
+for i in range(n):
+    num = int(input())
+    numbers.append(num)
+
+for i in range (len(numbers)):
+    if numbers[i] != min(numbers) and numbers[i] != max(numbers):
+        print(numbers[i])
+        
+
+
 
 
