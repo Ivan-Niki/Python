@@ -3286,6 +3286,15 @@ for i in range (len(numbers)):
 Формат выходных данных:
 Программа должна вывести текст в соответствии с условием задачи.
 Примечание. Считайте, что все строки состоят из строчных символов. """
+n = int(input())
+words = []
+for i in range(n):
+    s = input()
+    if s not in words:
+        words.append(s)
+
+for w in words:
+    print(w)
 
 
 
