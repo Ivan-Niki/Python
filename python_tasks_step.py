@@ -3303,3 +3303,13 @@ for w in words:
 Формат выходных данных:
 Программа должна вывести все введенные строки, в которых встречается поисковый запрос.
 Примечание. Поиск не должен быть чувствителен к регистру символов. """
+n = int(input())
+words = []
+for i in range(n):
+    s = input()
+    words.append(s)
+
+search = input()
+for w in words:
+    if search.lower() in w.lower():
+        print(w)
