@@ -3323,3 +3323,19 @@ for w in words:
 На вход программе подаются натуральное число n, а затем n целых чисел, каждое на отдельной строке.
 Формат выходных данных:
 Программа должна вывести текст в соответствии с условием задачи. """
+n = int(input())
+negative = []
+zero = []
+positive = []
+for i in range(n):
+    num = int(input())
+    if num < 0:
+        negative.append(num)
+    elif num == 0:
+        zero.append(num)
+    else:
+        positive.append(num)
+
+print(*negative, sep='\n')
+print(*zero, sep='\n')
+print(*positive, sep='\n')
