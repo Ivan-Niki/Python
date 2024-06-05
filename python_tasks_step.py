@@ -3350,4 +3350,23 @@ print(*positive, sep='\n')
 Формат выходных данных:
 Программа должна вывести все введенные строки, в которых встречаются все поисковые запросы.
 Примечание. Поиск не должен быть чувствителен к регистру символов. """
+n = int(input())
+words = []
+for i in range(n):
+    s = input()
+    words.append(s)
+
+k = int(input())
+search_words = []
+for i in range(k):
+    s_f = input()
+    search_words.append(s_f)
+
+for i in range(len(words)):
+    count = 0
+    for j in range(len(search_words)):
+        if search_words[j].lower() in words[i].lower():
+            count += 1
+    if count == len(search_words):
+        print(words[i])
 
