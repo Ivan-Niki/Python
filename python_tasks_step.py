@@ -3512,6 +3512,14 @@ print(*numbers)
 Формат выходных данных:
 Программа должна вывести общее количество артиклей 'a', 'an', 'the' вместе с поясняющим текстом.
 Примечание. Артикли могут начинаться с заглавной буквы 'A', 'An', 'The'. """
+s = input()
+words = s.split()
+count = 0
+for i in range(len(words)):
+    if words[i] == 'a' or words[i] == 'an' or words[i] == 'the' or words[i] == 'A' or words[i] == 'An' or words[i] == 'The':
+        count += 1
+print('Общее количество артиклей:', count)
+
 
 
 
