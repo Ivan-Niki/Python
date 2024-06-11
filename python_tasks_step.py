@@ -3493,6 +3493,16 @@ print(numbers)
 Формат выходных данных:
 Программа должна вывести строку текста в соответствии с условием задачи.
 Примечание. Используйте подходящие встроенные функции и списочные методы. """
+s = input()
+numbers = s.split()
+for i in range(len(numbers)):
+    numbers[i] = int(numbers[i])
+
+a = numbers.index(max(numbers))
+b = numbers.index(min(numbers))
+
+numbers[a], numbers[b] = numbers[b], numbers[a]
+print(*numbers)
 
 
 
