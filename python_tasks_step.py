@@ -3528,6 +3528,17 @@ print('Общее количество артиклей:', count)
 На вход программе подается строка текста, содержащая целые числа, разделенные символом пробела.
 Формат выходных данных:
 Программа должна вывести две строки текста в соответствии с условием задачи. """
+s = input()
+numbers = s.split()
+
+for i in range(len(numbers)):
+    numbers[i] = int(numbers[i])
+
+numbers.sort()
+print(*numbers)
+
+numbers.sort(reverse=True)
+print(*numbers)
 
 
 
