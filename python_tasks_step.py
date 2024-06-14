@@ -3568,6 +3568,8 @@ print(count)
 s = 'Python rocks!'
 print()
 
+# Answer:
+print(len(s))
 
 
 
