@@ -3550,6 +3550,17 @@ print(*numbers)
 Формат выходных данных:
 Программа должна вывести одно число – количество пар элементов, равных друг другу. """
 
+s = input()
+numbers = s.split()
+for i in range(len(numbers)):
+    numbers[i] = int(numbers[i])
+
+count = 0
+for i in range(len(numbers)):
+    for j in range(i + 1, len(numbers)):
+        if numbers[i] == numbers[j]:
+            count += 1
+print(count)
 
 
 
