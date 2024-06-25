@@ -3687,6 +3687,9 @@ print(s[:a] + s[b:a:-1] + s[b:])
 s = 'foO BaR BAZ quX'
 print(s.capitalize())
 
+# Ответ:
+Foo bar baz qux
+
 
 
 
