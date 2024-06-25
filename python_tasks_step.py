@@ -3701,5 +3701,6 @@ Foo123#bar#
 s = 'FOO Bar 123 baz qUX'
 print(s.swapcase())
 
-
+# Ответ:
+foo bAR 123 BAZ Qux
 
