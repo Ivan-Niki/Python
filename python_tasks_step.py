@@ -3697,6 +3697,9 @@ print(s.capitalize())
 # Ответ:
 Foo123#bar#
 
+# 260. Что будет результатом выполнения следующего кода:
+s = 'FOO Bar 123 baz qUX'
+print(s.swapcase())
 
 
 
