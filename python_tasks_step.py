@@ -3694,6 +3694,8 @@ Foo bar baz qux
 s = 'foo123#BAR#.'
 print(s.capitalize())
 
+# Ответ:
+Foo123#bar#
 
 
 
