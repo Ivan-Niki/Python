@@ -3690,6 +3690,9 @@ print(s.capitalize())
 # Ответ:
 Foo bar baz qux
 
+# 259. Что будет результатом выполнения следующего кода:
+s = 'foo123#BAR#.'
+print(s.capitalize())
 
 
 
