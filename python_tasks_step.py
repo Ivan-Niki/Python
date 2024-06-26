@@ -3723,3 +3723,6 @@ What'S Happened To Ted'S Ibm Stock?
 # 263. Что будет результатом выполнения следующего кода:
 s = 'FOO Bar 123 baz qUX'
 print(s.lower())
+
+# Ответ:
+foo bar 123 baz qux
