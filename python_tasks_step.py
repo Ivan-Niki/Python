@@ -3704,3 +3704,7 @@ print(s.swapcase())
 # Ответ:
 foo bAR 123 BAZ Qux
 
+# 261. Что будет результатом выполнения следующего кода:
+s = 'the sun also rises'
+print(s.title())
+
