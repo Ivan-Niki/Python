@@ -3716,3 +3716,5 @@ The Sun Also Rises
 s = "what's happened to ted's IBM stock?"
 print(s.title())
 
+# Ответ:
+What'S Happened To Ted'S Ibm Stock?
