@@ -3708,3 +3708,5 @@ foo bAR 123 BAZ Qux
 s = 'the sun also rises'
 print(s.title())
 
+# Ответ:
+The Sun Also Rises
