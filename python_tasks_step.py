@@ -3710,3 +3710,9 @@ print(s.title())
 
 # Ответ:
 The Sun Also Rises
+
+
+# 262. Что будет результатом выполнения следующего кода:
+s = "what's happened to ted's IBM stock?"
+print(s.title())
+
