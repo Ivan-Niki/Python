@@ -3731,3 +3731,5 @@ foo bar 123 baz qux
 s = 'FOO Bar 123 baz qUX'
 print(s.upper())
 
+# Ответ:
+FOO BAR 123 BAZ QUX
