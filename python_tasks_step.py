@@ -3729,4 +3729,5 @@ foo bar 123 baz qux
 
 # 263. Что будет результатом выполнения следующего кода:
 s = 'FOO Bar 123 baz qUX'
+print(s.upper())
 
