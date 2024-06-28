@@ -3768,3 +3768,9 @@ print(s.find('foo'))
 print(s.find('bar'))
 print(s.find('qu'))
 print(s.find('python'))
+
+# Ответ:
+0
+4
+20
+-1
