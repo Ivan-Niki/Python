@@ -3774,3 +3774,8 @@ print(s.find('python'))
 4
 20
 -1
+
+
+# 269. Что будет результатом выполнения следующего кода:
+s = '     foo bar foo baz foo qux      '
+print(s.strip())
