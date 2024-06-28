@@ -3779,3 +3779,6 @@ print(s.find('python'))
 # 269. Что будет результатом выполнения следующего кода:
 s = '     foo bar foo baz foo qux      '
 print(s.strip())
+
+# Ответ:
+foo bar foo baz foo qux
