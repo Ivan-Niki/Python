@@ -3761,3 +3761,8 @@ print(s.endswith('bar'))
 True
 False
 
+
+# 268. Что будет результатом выполнения следующего кода:
+s = 'foo bar foo baz foo qux'
+print(s.find('foo'))
+print(s.find('bar'))
