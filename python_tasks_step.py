@@ -3744,7 +3744,7 @@ print(s.count('oo', 0, 8))  # подсчет с 0 по 7 символ
 2
 
 
-# 265. Что будет результатом выполнения следующего кода:
+# 266. Что будет результатом выполнения следующего кода:
 s = 'foobar'
 print(s.startswith('foo'))
 print(s.startswith('baz'))
@@ -3753,4 +3753,6 @@ print(s.startswith('baz'))
 True
 False
 
-
+# 267. Что будет результатом выполнения следующего кода:
+s = 'foobar'
+print(s.endswith('bar'))
