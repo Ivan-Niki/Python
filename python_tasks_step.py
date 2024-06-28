@@ -3782,3 +3782,7 @@ print(s.strip())
 
 # Ответ:
 foo bar foo baz foo qux
+
+# 270. Что будет результатом выполнения следующего кода:
+s = '     foo bar foo baz foo qux      '
+print(s.lstrip())
