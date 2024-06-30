@@ -3794,3 +3794,6 @@ print(s.lstrip())
 # 271. Что будет результатом выполнения следующего кода:
 s = '      foo bar foo baz foo qux      '
 print(s.rstrip())
+
+# Ответ:
+'      foo bar foo baz foo qux'
