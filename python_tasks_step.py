@@ -3789,3 +3789,7 @@ print(s.lstrip())
 
 # Ответ:
 'foo bar foo baz foo qux      '
+
+
+# 271. Что будет результатом выполнения следующего кода:
+s = '      foo bar foo baz foo qux      '
