@@ -3802,3 +3802,5 @@ print(s.rstrip())
 s = 'foo bar foo baz foo qux'
 print(s.replace('foo', 'grault'))
 
+# Ответ:
+grault bar grault baz grault qux
