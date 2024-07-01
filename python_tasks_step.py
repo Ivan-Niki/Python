@@ -3804,3 +3804,8 @@ print(s.replace('foo', 'grault'))
 
 # Ответ:
 grault bar grault baz grault qux
+
+
+# 273. Что будет результатом выполнения следующего кода:
+s = 'foo bar foo baz foo qux'
+print(s.replace('foo', 'grault', 2))
