@@ -3797,3 +3797,8 @@ print(s.rstrip())
 
 # Ответ:
 '      foo bar foo baz foo qux'
+
+# 272. Что будет результатом выполнения следующего кода:
+s = 'foo bar foo baz foo qux'
+print(s.replace('foo', 'grault'))
+
