@@ -3813,3 +3813,8 @@ print(s.replace('foo', 'grault', 2))
 # Ответ:
 grault bar grault baz foo qux
 
+
+# 274. Что будет результатом выполнения следующего кода:
+s1 = 'abc123'
+s2 = 'abc$*123'
+s3 = ''
