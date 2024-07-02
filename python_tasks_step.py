@@ -3822,3 +3822,8 @@ s3 = ''
 print(s1.isalnum())
 print(s2.isalnum())
 print(s3.isalnum())
+
+# Ответ:
+True
+False
+False
