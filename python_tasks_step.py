@@ -3867,3 +3867,8 @@ s3 = 'Abc1$D'
 print(s1.islower())
 print(s2.islower())
 print(s3.islower())
+
+# Ответ:
+True
+True
+False
