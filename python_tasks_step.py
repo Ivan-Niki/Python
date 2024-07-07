@@ -3882,3 +3882,8 @@ s3 = 'Abc1$D'
 print(s1.isupper())
 print(s2.isupper())
 print(s3.isupper())
+
+# Ответ:
+True
+True
+False
