@@ -3917,5 +3917,11 @@ age = 27
 txt = 'My name is Timur, I am ' + str(age)
 print(txt)
 
+""" Такой код работает, однако в Python предпочтительным способом форматирования считается использование метода format. 
+Предыдущую программу можно переписать в виде: """
+age = 27
+txt = 'My name is Timur, I am {}'.format(age)
+print(txt)
+
 
 
