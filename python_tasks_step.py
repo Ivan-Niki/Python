@@ -3923,8 +3923,14 @@ age = 27
 txt = 'My name is Timur, I am {}'.format(age)
 print(txt)
 
-""" Мы передаем необходимые параметры методу format, а Python форматирует указанную строку 
-и помещает их в строку на место заполнителей {}. """
+""" Мы передаем необходимые параметры методу format, а Python форматирует указанную строку и помещает их 
+в строку на место заполнителей {}. Мы можем создавать сколько угодно заполнителей в строке: """
+age = 27
+name = 'Timur'
+profession = 'math teacher'
+txt = 'My name is {}, I am {}, I work as a {}'.format(name, age, profession)
+print(txt)
+
 
 
 
