@@ -3940,4 +3940,8 @@ txt = 'My name is {0}, I am {1}, I work as a {2}'.format(name, age, profession)
 print(txt)
 
 
+""" Параметр name встает в {0} заполнитель, параметр age встает в {1} заполнитель и т.д. 
+Мы можем использовать одно и тоже число в нескольких заполнителях """
+name = 'Timur'
+txt = 'My name is {0}-{0}-{0}'.format(name
 
