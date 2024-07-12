@@ -3944,4 +3944,6 @@ print(txt)
 Мы можем использовать одно и тоже число в нескольких заполнителях """
 name = 'Timur'
 txt = 'My name is {0}-{0}-{0}'.format(name
+print(txt)
+
 
