@@ -3946,4 +3946,6 @@ name = 'Timur'
 txt = 'My name is {0}-{0}-{0}'.format(name
 print(txt)
 
+# Результатом выполнения такого кода будет:
+My name is Timur-Timur-Timur
 
