@@ -3963,7 +3963,14 @@ print('Hello, {0} {1}. You are {2}. You are a {3}. You were a member of {4}'
 
 """ В Python 3.6 появилась новая разновидность строк — так называемые f-строки. 
 Если поставить перед строкой префикс f, в заполнители можно будет включить код, например имя переменной.
-Предыдущий код можно записать в виде:
+Предыдущий код можно записать в виде: """
+
+first_name = 'Timur'
+last_name = 'Guev'
+age = 27
+profession = 'math teacher'
+affiliation = 'BeeGeek'
+print(f'Hello, {first_name} {last_name}. You are {age}. You are a {profession}. You were a member of {affiliation}')
     
 
 
