@@ -3972,6 +3972,7 @@ profession = 'math teacher'
 affiliation = 'BeeGeek'
 print(f'Hello, {first_name} {last_name}. You are {age}. You are a {profession}. You were a member of {affiliation}')
     
+""" На место заполнителя {first_name} встает значение переменной first_name, на место заполнителя {last_name} встает значение переменной last_name и т.д. """
 
 
 
